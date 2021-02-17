@@ -6,7 +6,7 @@ const firstName = require("./data/first_name.json");
 const middleName = require("./data/middle_name.json");
 const lastName = require("./data/last_name.json");
 
-const limit = 100000;
+const limit = 1000000;
 
 const outputFile = `${__dirname}/output/data.txt`;
 const dateStart = new Date();
